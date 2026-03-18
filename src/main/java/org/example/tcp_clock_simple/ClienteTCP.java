@@ -14,6 +14,7 @@ import java.util.Scanner;
  * @version 1.0
  * @since 2026-03-17
  */
+
 public class ClienteTCP {
     public static void main(String[] args) {
         Socket socket = null;
