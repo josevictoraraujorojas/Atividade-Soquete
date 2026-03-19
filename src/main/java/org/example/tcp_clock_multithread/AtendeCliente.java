@@ -6,6 +6,18 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.zone.ZoneRulesException;
 
+/**
+ * Classe AtendeCliente.
+ *
+ * <p>Responsável por atender um cliente em uma thread separada
+ * em um servidor TCP multithread. Recebe uma região geográfica
+ * enviada pelo cliente e retorna o horário correspondente.</p>
+ *
+ * @author José Victor
+ * @version 1.0
+ * @since 2026-03-17
+ */
+
 public class AtendeCliente implements Runnable {
     private Socket clienteSocket;
 
